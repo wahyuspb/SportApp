@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5pt"
+    android:orientation="vertical"
+    android:padding="5pt">
+
+    <ImageView
+        android:id="@+id/img_detail"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:contentDescription=""
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_title_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        tools:text="Judul"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn_Fav"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="@color/design_default_color_secondary"
+        />
+    <TextView
+        android:id="@+id/txtAway"
+        android:layout_width="100dp"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="SCORE" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtHome_detail"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/txtHomeScore_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtAway_detail"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/txtAwayScore_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="100dp"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Date" />
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="100dp"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:text="Date" />
+
+
+
+
+
+</LinearLayout>
